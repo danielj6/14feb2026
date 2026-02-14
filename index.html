@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <title>San Valentin ❤️</title>
+    <link rel="stylesheet" href="./style.css">
+
+  </head>
+    
+  <body>
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Dancing+Script&family=Playfair+Display:wght@400;600&display=swap" rel="stylesheet">
+
+<div class="screen active" id="screen-lock">
+  <div class="lock fade-in">
+    <div class="shackle"></div>
+    <div class="body">
+      <input id="dateInput" placeholder="DD/MM/AAAA" maxlength="10">
+    </div>
+  </div>
+  <p id="lockMsg" class="fade-in">Ingresá la fecha correcta para abrir</p>
+</div>
+
+<div class="screen" id="screen-love">
+  <h1 class="title fade-in">Feliz 14 de febrero ❤️</h1>
+  <button class="love-btn fade-in" onclick="goToEnvelope()">Te amo</button>
+</div>
+
+<div class="screen" id="screen-envelope">
+  <div class="envelope fade-in" onclick="openLetter()">
+    <p id="clickText">Clic para abrir 💌</p>
+  </div>
+
+  <div class="letter" id="letter">
+    <div class="letter-content fade-in">
+      <p class="letter-text">
+        Mi amor, mi Eli preciosa  ❤️<br><br>
+        Feliz día, gracias por ser mi primer 14 de febrero, gracias por hacer este día especial,
+        gracias por ser mi felicidad. Espero que te guste este regalito que te hice con todo mi corazón
+        y con todo el amor del mundo. Te mereces todo mi amor, eres la mejor persona que tengo en mi vida.
+        Gracias por estar, por acompañarme siempre y cuidarme. Prometo amarte toda la vida mi corazón 💗
+        Te amo demasiado y espero que Dios me dé el privilegio de pasar San Valentín contigo por siempre ❤️<br><br>
+        Cada momento a tu lado es único y maravilloso. Cada sonrisa tuya, cada abrazo,  
+cada palabra dulce que me dices me hace sentir la persona más afortunada del mundo.  
+<br><br>
+
+Gracias por tu paciencia, por tu ternura,  
+y por hacer que cada día juntos sea mejor que el anterior. Me encanta tu forma de ser,  
+tu sonrisa, tu mirada y cómo me haces sentir amado.<br><br>
+
+        Cada pequeño detalle que compartimos, cada recuerdo que construimos
+es un tesoro para mí. No hay nada que desee más que seguir caminando a tu lado,  
+apoyándonos, riendo, soñando juntos, creciendo juntos. Gracias por elegirme,  
+por confiar en mí y por amarme como lo haces<br><br>
+
+Prometo cuidarte, respetarte, escucharte y amarte todos los días de mi vida.  
+Gracias por ser mi amor, mi compañera,  
+mi alegría y mi todo. Te amo con todo mi corazón mi princesa.<br><br>
+
+Con amor
+Daniel 💖
+</p>
+     
+
+    
+      
+    
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+      <!----- Espacio hasta cronómetro ----->
+      <!-- <div style="height: 400px;"></div>
+
+      <h2 class="counter-title">Tiempo siendo la persona más feliz a tu lado ❤️</h2>
+      <div id="counter"></div> -->
+
+      <button class="continue-btn" onclick="goToFinal()">Continuar</button>
+    </div>
+  </div>
+</div>
+
+<div class="screen" id="screen-final">
+  <h1 class="final-title fade-in">Feliz San Valentín amor de mi vida  <br>Te amo hoy, y siempre </h1>
+  <div class="hearts and kisses"></div>
+</div>
+    <script  src="./script.js"></script>
+
+  </body>
+  
+</html>
